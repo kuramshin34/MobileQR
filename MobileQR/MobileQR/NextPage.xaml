@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileQR.NextPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Name:" />
+            <Label x:Name="qrCodeName" />
+            <Label Text="Id" />
+            <Label x:Name="qrCodeId" />
+            <Label Text="Sucsess" />
+            <Label x:Name="qrMatch" />
+            <Button Text="Add" Clicked="Add_Model"/>
+            <Button Text="Remove" Clicked="Remove_Model"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
